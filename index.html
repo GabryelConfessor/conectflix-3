@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+    <div class="nome text-center">
+        <h1>ConetPlus</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light cor1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Conetplus</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#filmes">Filmes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                Opções 
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#serie">Séries</a></li>
+                  <li><a class="dropdown-item" href="#filmes">Filmes</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#acao">Filmes para toda a família </a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "><link rel="stylesheet" href="Plano"></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/PLANO DE FUNDO VDD.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/PLANO DE FUNDO VDD 2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/PLANO DE FUNDO VDD 3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <div class="container text-light" id="filmes">
+        <h2>Filmes</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="img/harry.jpg" class="img-fluid" alt="...">
+                <h3>Harry Potter</h3>
+                <a href="https://www.netflix.com/browse?jbv=80217863"><input type="button" class="btn btn-info link-a-1" value="Aperte Aqui"></a>
+            </div>
+            <div class="col-md-2">
+                <img src="img/jogos vorazes.jpg" class="img-fluid" alt="...">
+                <h3>Jogos Vorazes</h3>
+                <a href="https://www.netflix.com/watch/70305908?trackId=255824129&tctx=10%2C51%2C23cbbe8d-bbbe-49c2-98dc-44d24e54a825-37245960%2C23cbbe8d-bbbe-49c2-98dc-44d24e54a825-37245960%7C2%2Cunknown%2C%2C%2CtitlesResults%2C%2CVideo%3A70305908%2CdetailsPagePlayButton"><input type="button" class="btn btn-info link-a-1" value="Aperte Aqui"></a>
+            </div>
+            <div class="col-md-2">
+                <img src="img/jurassic.jpg" class="img-fluid" alt="...">
+                <h3>Jurassic World</h3>
+                <a href="http://www.netflix.com/watch/80029196?trackId=255824129&tctx=0%2C1%2Cfa291d1e-9eec-4d9f-8f66-4671213753c4-1013852689%2Cfa291d1e-9eec-4d9f-8f66-4671213753c4-1013852689%7C2%2Cunknown%2C%2C%2CtitlesResults%2C80029196%2CVideo%3A80029196%2CminiDpPlayButton"><input type="button" class="btn btn-info link-a-1" value="Aperte Aqui"></a>
+            </div>
+            <div class="col-md-2">
+                <img src="img/pixels.jpg" class="img-fluid" alt="...">
+                <h3>Pixels</h3>
+                <a href="http://www.netflix.com/watch/80037476?trackId=255824129&tctx=0%2C0%2C316b0ee5-4f54-4b97-86e2-15d58caf85f0-38217836%2C316b0ee5-4f54-4b97-86e2-15d58caf85f0-38217836%7C2%2Cunknown%2C%2C%2C%2C%2CVideo%3A80037476%2CminiDpPlayButton"><input type="button" class="btn btn-info link-a-1" value="Aperte Aqui"></a>
+            </div>
+            <div class="col-md-2">
+                <img src="img/ponte para terabitia.jpg" class="img-fluid" alt="...">
+                <h3>Ponte para Terabitia</h3>
+                <a href="http://www.netflix.com/watch/70053832?trackId=255824129&tctx=0%2C0%2Cfb987042-1646-41e1-bf3b-8588bb49abec-261715647%2Cfb987042-1646-41e1-bf3b-8588bb49abec-261715647%7C2%2Cunknown%2C%2C%2CtitlesResults%2C70053832%2CVideo%3A70053832%2CminiDpPlayButton"><input type="button" class="btn btn-info link-a-1" value="Aperte Aqui"></a>
+            </div>
+            <div class="col-md-2">
+                <img src="img/um espiao e meio.jpg" class="img-fluid" alt="...">
+                <h3>Um Espião e meio</h3>
+                <a href="http://www.netflix.com/watch/80094318?trackId=255824129&tctx=0%2C0%2C9de08572-9a7a-4ea2-9d56-b6b547202ce2-107822584%2C9de08572-9a7a-4ea2-9d56-b6b547202ce2-107822584%7C2%2Cunknown%2C%2C%2C%2C%2CVideo%3A80094318%2CminiDpPlayButton"><input type="button" class="btn btn-info link-a-1" value="Aperte Aqui"></a>
+            </div>
+            
+             </div>
+                 </div>
+                <br><br>
+                 <div class="container text-light" id="serie">
+                    <h2>SÉRIES</h2>
+                </div>
+                
+
+                 <div class="container">
+                 
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="img/B99.jpg" class="img-fluid" alt="...">
+                            <h3>Brooklin 99</h3>
+                            <a href="http://www.netflix.com/search?q=broo&jbv=70281562"><input type="button" class="btn btn-info link-a-1" value="Aperte aqui"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/flash.jpg" class="img-fluid" alt="...">
+                            <h3>The Flash</h3>
+                            <a href="http://www.netflix.com/search?q=the%20f&jbv=80027042"><input type="button" class="btn btn-info link-a-1" value="Aperte aqui"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/the 100.jpg" class="img-fluid" alt="...">
+                            <h3>The 100</h3>
+                            <a href="http://www.netflix.com/search?q=the%20100&jbv=70283264"><input type="button" class="btn btn-info link-a-1" value="Aperte aqui"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/the office.jpg" class="img-fluid" alt="...">
+                            <h3>The office</h3>
+                            <a href="http://www.netflix.com/search?q=the%20offi&jbv=70136120"><input type="button" class="btn btn-info link-a-1" value="Aperte aqui"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/twd.jpg" class="img-fluid" alt="...">
+                            <h3>TWD</h3>
+                            <a href="http://www.netflix.com/search?q=the%20wa&jbv=70177057"><input type="button" class="btn btn-info link-a-1" value="Aperte aqui"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/peaky blinders.jpg" class="img-fluid" alt="...">
+                            <h3>Peaky Blinders</h3>
+                            <a href="http://www.netflix.com/search?q=pea&jbv=80002479"><input type="button" class="btn btn-info link-a-1" value="Aperte aqui"></a>
+                        </div>
+                        
+
+                 </div>
+                </div>
+                 
+
+                <br><br>
+                 <div class="container text-light" id="acao">
+                    <h2>FILMES PARA TODA A FAMÍLIA</h2>
+                </div>
+                
+
+                 <div class="container">
+                 
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="img/angry birds.jpg" class="img-fluid" alt="...">
+                            <h3>Angry Birds</h3>
+                            <a href="http://www.netflix.com/watch/80091938?trackId=255824129&tctx=1%2C5%2C8728e5a7-eb96-4011-891b-b061e7496d6c-270915665%2C8728e5a7-eb96-4011-891b-b061e7496d6c-270915665%7C2%2Cunknown%2C%2C%2CtitlesResults%2C80091938%2CVideo%3A80091938%2CminiDpPlayButton"><input type="button" class="btn btn-info link-a-1" value="Aperte aqui"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/peguins de madagascar.jpg" class="img-fluid" alt="...">
+                            <h3>pinguins de madasgacar</h3>
+                            <a href="http://www.netflix.com/watch/80013941?trackId=255824129&tctx=0%2C1%2Cca826a32-da9b-4886-832f-88daa9fb04c2-59901868%2Cca826a32-da9b-4886-832f-88daa9fb04c2-59901868%7C2%2Cunknown%2C%2C%2CtitlesResults%2C%2CVideo%3A80013941%2CdetailsPagePlayButton"><input type="button" class="btn btn-info link-a-1" value="Aperte aqui"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/kung fu panda.jpg" class="img-fluid" alt="...">
+                            <h3>kungfu panda</h3>
+                            <a href="http://www.netflix.com/watch/80071348?trackId=255824129&tctx=0%2C3%2C5a704110-81d7-43df-b91b-26494a461e71-29843502%2C5a704110-81d7-43df-b91b-26494a461e71-29843502%7C2%2Cunknown%2C%2C%2CtitlesResults%2C%2CVideo%3A80071348%2CdetailsPagePlayButton"><input type="button" class="btn btn-info link-a-1" value="Aperte aqui"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/filme sing.jpg " class="img-fluid" alt="...">
+                            <h3>Sing</h3>
+                            <a href="http://www.netflix.com/watch/80117526?trackId=255875003&tctx=1%2C8%2C295e587d-17cd-4e96-8ee8-2540348d25da-211295583%2C295e587d-17cd-4e96-8ee8-2540348d25da-211295583%7C1%2Cunknown%2C%2C%2CsuggestionTitlesResults%2C80117526%2CVideo%3A80117526%2CminiDpPlayButton"><input type="button" class="btn btn-info link-a-1" value="Aperte aqui"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/madagascar.jpg" class="img-fluid" alt="...">
+                            <h3>Madagascar</h3>
+                            <a href="http://www.netflix.com/watch/70021636?trackId=255824129&tctx=0%2C3%2C9de08572-9a7a-4ea2-9d56-b6b547202ce2-60294662%2C9de08572-9a7a-4ea2-9d56-b6b547202ce2-60294662%7C2%2Cunknown%2C%2C%2CtitlesResults%2C70021636%2CVideo%3A70021636%2CminiDpPlayButton"><input type="button" class="btn btn-info link-a-1" value="Aperte aqui"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/turbo.jpg" class="img-fluid" alt="...">
+                            <h3>Turbo</h3>
+                            <a href="http://www.netflix.com/watch/70267728?trackId=255824129&tctx=0%2C0%2Cabdda3bd-d9e2-41cd-b3d7-5b23bde1ee33-217698695%2Cabdda3bd-d9e2-41cd-b3d7-5b23bde1ee33-217698695%7C2%2Cunknown%2C%2C%2CtitlesResults%2C70267728%2CVideo%3A70267728%2CminiDpPlayButton"><input type="button" class="btn btn-info link-a-1" value="Aperte aqui"></a>
+                        </div>
+                        
+                 </div>
+                </div>
+                
+                <br><br>
+                 <div class="container text-light" id="acao">
+                    <h2>FILMES INDICADOS AO OSCAR</h2>
+                </div>
+                
+
+                 <div class="container">
+                 
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="img/angry birds.jpg" class="img-fluid" alt="...">
+                            <h3>Angry Birds</h3>
+                            <a href="http://www.netflix.com/watch/80091938?trackId=255824129&tctx=1%2C5%2C8728e5a7-eb96-4011-891b-b061e7496d6c-270915665%2C8728e5a7-eb96-4011-891b-b061e7496d6c-270915665%7C2%2Cunknown%2C%2C%2CtitlesResults%2C80091938%2CVideo%3A80091938%2CminiDpPlayButton"><input type="button" class="btn btn-info link-a-1" value="Aperte aqui"></a>
+                        </div>
+                               
+</body>
+</html>
